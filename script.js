@@ -87,6 +87,7 @@ $.getJSON(
       var accountabilityGrade = marker[8];
       var studentAchievementScore = marker[9];
       var studentAchievementGrade = marker[10];
+      console.log(studentAchievementGrade)
 
       var type = marker[4];
       var schoolType = "";
@@ -96,7 +97,7 @@ $.getJSON(
         schoolType = "DISD School";
       }
 
-      if (latitude && longitude) {
+      if (studentAchievementGrade === "F" || studentAchievementGrade === "D") {
       
 
         var popupContent = "<div>";
