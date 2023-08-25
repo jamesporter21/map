@@ -335,7 +335,7 @@ div#layers-custom-control {
   -webkit-font-smoothing: antialiased;
 }
 
-@media screen and (max-width: 1039px) and (min-width: 814px) {
+/* @media screen and (max-width: 1039px) and (min-width: 814px) {
   #menu {
     overflow-y: auto;
   }
@@ -346,12 +346,12 @@ div#layers-custom-control {
   #menu img {
     width: 22px;
   }
-}
+} */
 
 @media screen and (max-width: 813px) and (min-width: 666px) {
   #menu {
     max-width: 25%;
-    height: 147px;
+    /* height: 147px; */
   }
 
   #menu a {
@@ -375,7 +375,7 @@ div#layers-custom-control {
 @media screen and (max-width: 665px) and (min-width: 456px) {
   #menu {
     max-width: 30%;
-    height: 300px;
+    /* height: 300px; */
     overflow-y: auto;
   }
 
@@ -407,15 +407,6 @@ div#layers-custom-control {
 @media screen and (max-width: 399px) {
  
 
-  #menu {
-    /* display: flex; */
-    position: absolute;
-    width: 102%;
-    height: 178px;
-    top: 52%;
-    left: -2px;
-    overflow-y: scroll;
-  }
 
 
   .mapboxgl-ctrl-geocoder mapboxgl-ctrl {
