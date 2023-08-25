@@ -10,7 +10,7 @@ var maxBounds = [
 
 var map = new mapboxgl.Map({
   container: "map",
-  style: "mapbox://styles/jamesporter21/cllqep7cs006x01qyfamwgwlj",
+  style: "mapbox://styles/jamesporter21/cllqq02fy007w01r4bv7yal0h",
   center: [-96.7853964, 32.7846839],
   zoom: 10,
   // maxBounds: maxBounds,
